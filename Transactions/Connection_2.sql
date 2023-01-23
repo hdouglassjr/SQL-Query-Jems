@@ -1,0 +1,5 @@
+BEGIN TRANSACTION
+UPDATE sales.SalesOrderDetail 
+SET OrderQty = 10
+WHERE SalesOrderDetailID = 121316
+COMMIT TRANSACTION
